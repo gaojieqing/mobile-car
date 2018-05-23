@@ -6,10 +6,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.alibaba.fastjson.JSON;
+import com.bar.api.service.WxApiAccessService;
 import com.bar.framework.utils.AesCbcUtil;
 
 @Service
-public class WxApiAccessServiceImpl {
+public class WxApiAccessServiceImpl implements WxApiAccessService {
 	
 	@SuppressWarnings("unchecked")
 	public Map<String, Object> getOpenIdAndSessionKey(String appId, String appSecret, String code) throws Exception {
