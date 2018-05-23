@@ -1,0 +1,22 @@
+server: 
+  port: 8082
+  tomcat.uri-encoding: UTF-8
+
+logging: 
+  config: "classpath:logback.xml"
+
+spring: 
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: "jdbc:mysql://118.24.104.246:3306/mb-uc?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&autoReconnectForPools=true&zeroDateTimeBehavior=convertToNull"
+    username: qiniu
+    password: "@Bugu9654"
+  http: 
+    encoding: 
+      force: true
+      charset: UTF-8
+      enabled: true
+
+wx: 
+  appId: wxdf9afeb704548bce
+  appSecret: 00f5fb8928e3890565a8aa8db2412c96

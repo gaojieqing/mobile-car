@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.bar.wx.constants.WxConfigs",
+      "name": "wx",
+      "type": "com.bar.wx.constants.WxConfigs"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.bar.wx.constants.WxConfigs",
+      "name": "wx.app-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.bar.wx.constants.WxConfigs",
+      "name": "wx.app-secret",
+      "type": "java.lang.String"
+    }
+  ]
+}
